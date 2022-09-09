@@ -60,10 +60,10 @@ body{
   position: absolute;
   z-index: 100;
 
-  top: 18rem;
-  right: calc(50% - 23rem);
+  top: 20rem;
+  right: calc(50% - 18rem);
 
-  max-width: 20rem;
+  max-width: 15rem;
 }
 
 .produto button{
