@@ -1,0 +1,103 @@
+:root{
+  font-size: 62.5%
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-size: 1.6rem
+}
+
+html,
+body{
+  overflow: overlay;
+}
+
+body{
+  margin: 0 auto;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  text-align: center
+}
+
+#container.esconder{
+  visibility: hidden;
+}
+
+.topo{
+  display: flex;
+  align-items: center;
+
+  padding-left: 3rem;
+
+  background-color: rgb(10, 10, 169);
+  color: white;
+
+  width: 100%;
+  height: 7rem;
+
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  text-align: left;
+}
+
+.produto{
+  overflow: hidden;
+}
+
+.produto p{
+  font-size: 2.4rem;
+
+  margin: 6rem auto 2rem auto;
+}
+
+.lancamento{
+  position: absolute;
+  z-index: 100;
+
+  top: 18rem;
+  right: calc(50% - 23rem);
+
+  max-width: 20rem;
+}
+
+.produto button{
+  margin: 6rem;
+
+  width: 18rem;
+  height: 5rem;
+
+  border: none;
+  border-radius: 8rem;
+
+  background-color: rgb(10, 10, 169);
+  color: white;
+
+  
+  font-weight: 700;
+}
+
+.produto button:hover{
+  background-color: rgb(16, 16, 222);
+}
+
+.descrip{
+  margin-bottom: 4rem;
+}
+
+#compra{
+  position: absolute;
+  top: 10rem;
+  left: calc(50% - 15rem);
+
+  max-width: 30rem;
+}
+
+#compra.esconder {
+  visibility: hidden;
+}
