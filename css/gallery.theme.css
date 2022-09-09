@@ -18,6 +18,7 @@ img{
 .gallery {
   position: relative;
   left: calc(50% - 15rem);
+	max-width: 15rem;
 }
 .gallery .item {
   height: 30rem;
