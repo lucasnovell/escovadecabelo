@@ -93,7 +93,7 @@ body{
 
 #compra{
   position: absolute;
-  top: 60rem;
+  top: 30rem;
   left: calc(50% - 15rem);
 
   max-width: 30rem;
